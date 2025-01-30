@@ -1,0 +1,79 @@
+/* Style général pour les champs de texte */
+.text-field {
+
+      -fx-pref-width: 250px;
+    -fx-font-size: 12px;
+    -fx-padding: 8px;
+    -fx-background-color: #f1f1f1;
+    -fx-border-color: #388e3c;
+    -fx-border-radius: 5px;
+}
+
+#headerText {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #388e3c;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+     -fx-text-fill: white;
+}
+
+#header {
+    -fx-background-color: #388e3c;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+
+    -fx-alignment: center;
+     -fx-text-fill: white;
+}
+
+/* Style pour les ComboBox */
+.combo-box {
+    -fx-pref-width: 200px; /* Largeur réduite */
+    -fx-font-size: 12px;
+    -fx-padding: 8px;
+    -fx-background-color: #f1f1f1;
+    -fx-border-color: #388e3c;
+    -fx-border-radius: 5px;
+}
+
+/* Style des Labels */
+.label {
+    -fx-font-size: 15px; /* Réduction de la taille de la police */
+    -fx-font-weight: bold;
+    -fx-text-fill: #388e3c;
+    -fx-padding: 5px;
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #66bb6a;
+    -fx-text-fill: white;
+    -fx-font-size: 12px; /* Réduction de la taille de la police */
+    -fx-padding: 8px 12px; /* Réduction du padding */
+    -fx-min-width: 120px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #4caf50;
+}
+
+
+
+
+#formBox {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+
+
+}
+
+/* Ajustement pour les boutons */
+.button {
+    -fx-min-width: 180px;
+    -fx-pref-width: 180px;
+    -fx-font-size: 15px;
+}

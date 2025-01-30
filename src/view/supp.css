@@ -1,0 +1,44 @@
+/* deleteclientpage.css */
+
+/* Style pour la zone du header */
+.header {
+    -fx-background-color: #4CAF50;
+    -fx-padding: 20px;
+}
+
+.header .title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+/* Formulaire */
+.form-container {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.form-container .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.form-container .textfield {
+    -fx-pref-width: 250px;
+    -fx-font-size: 14px;
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}

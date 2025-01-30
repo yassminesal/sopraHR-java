@@ -1,0 +1,57 @@
+/* Appliquer une couleur de fond générale */
+#root {
+   -fx-background-color: #eaf2f1;
+    -fx-padding: 20px;
+}
+
+/* Style du texte du titre */
+#headerText {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: #2c3e50;
+    -fx-text-alignment: center;
+}
+
+/* Style des colonnes dans le tableau */
+.table-view {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-padding: 10px;
+}
+
+/* Style des colonnes du tableau */
+.table-view .column-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Style des cellules du tableau */
+.table-view .cell {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Style des lignes du tableau survolées */
+.table-view .row-cell:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Style du bouton retour */
+#backButton {
+  -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Style du bouton retour lorsqu'il est survolé */
+#backButton:hover {
+      -fx-background-color: #45a049;
+}
